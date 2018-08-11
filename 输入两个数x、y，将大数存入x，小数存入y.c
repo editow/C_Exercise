@@ -1,0 +1,19 @@
+//3.输入两个数x、y，将大数存入x，小数存入y。
+#include"stdio.h"
+main()
+{
+	int x,y,t;
+	printf("输入两个数x=");
+	scanf("%d",&x);
+	printf("\n");
+	printf("输入两个数y=");
+	scanf("%d",&y);
+	if(x<y)
+	{
+		t=x;
+		x=y;
+		y=t;
+	}
+	printf("大数存入x=%d,小数存入y=%d",x,y);
+	printf("\n"); 
+}
